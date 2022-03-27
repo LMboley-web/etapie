@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+      <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="keywords" content="Pizza, Order, Custom, Delivery">
+      <meta name="author" content="Lauren M. Boley"> 
+      <meta name="description" content="Eta Pie Pizza Menu">
+      <link href="eta.css" rel="stylesheet">
+      <link rel="icon" type="image/ico" href="assets/eta-favicon.ico"/>
+      <script src="jq/jquery.js"></script>
+      <title>Eta Pie Build Your Own Pizzas | Pizza Menu</title>
+   </head>
+   <body>
+
+      <div class="menu-banner-img" id="pizza-img">
+         <img src="assets/fresh-pizza-dark.png" alt="Fresh Veggie Rich Pizza">
+      </div>
+      <h1 class="menu-mast">Our Pizzas</h1>
+      <div class="bar" id="menu-bar"></div>
+
+      <!-- Menu Nav IMPORTANT -->
+         <div class="menu-nav-cat">
+         </div>
+
+      <!-- Pizza Custom Item -->
+      <div class="main-container">
+         <h1>Build Your<br>Own Pizza</h1>
+            <div class="menu-choice" id="custom-item" onclick="openPopup()">
+               <div class="left">
+               <div class="item-img" id="custom">
+                  <img id="star" src="assets/cust-star.svg" alt="Custom Item Star Graphic">
+               </div>
+            </div>
+            <div class="right">
+               <h3>Custom Pizza</h3>
+               <p>Choose your own crust, sauce, cheese, meat, veg and toppings on your dream pie.</p>  
+            </div>
+         </div>
+            <div class="callout">
+               <p>*Any pizza topping or Chef’s Whimsey pizza creation is available as a bowl over warm cauliflower rice, so <strong>get creative!</strong></p>  
+            </div>
+      </div>
+
+      <!-- Toggle Options List IMPORTANT -->
+         <div class="main-container" id="red-block">
+             <h2>View Our Custom Options</h2>
+            <!-- toogled options -->
+            <div class="toggle-all">
+            </div>
+         </div>
+
+      <!-- menu list IMPORTANT -->
+      <div class="main-container" id="white-block">
+         <h1>Chef's Whimsey</h1>   
+         <div class="menu-list"> 
+         </div>
+
+   <!-- Menu Nav Bottom -->
+   <div class="menu-nav" id="bottom-nav">
+      <div class="nav-item" id="active-item">
+         <a href="menu.html"><p>Pizzas</p></a>
+      </div>
+      <div class="nav-item">
+         <a href="menu-salads.html"><p>Salads</p></a>
+      </div>
+         <div class="nav-item">
+      <a href="menu-sides.html"><p>Sides</p></a>  
+      </div>
+         <div class="nav-item">
+         <a href="menu-drinks.html"><p>Drinks</p></a>   
+      </div>
+      <div class="nav-item">
+         <a href="menu-desserts.html"><p>Desserts</p></a>
+      </div>
+   </div>
+</div>
+   </body>
+   <script src="eta.js"></script>
+</html>

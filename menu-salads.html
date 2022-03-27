@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+      <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="keywords" content="Pizza, Order, Custom, Delivery">
+      <meta name="author" content="Lauren M. Boley"> 
+      <meta name="description" content="Eta Pie Salad Menu">
+      <link href="eta.css" rel="stylesheet">
+      <link rel="icon" type="image/ico" href="assets/eta-favicon.ico"/>
+      <title>Eta Pie Custom Order Pizzas | Salad Menu</title>
+      <script src="jq/jquery.js"></script>
+      <script src="eta.js"></script>
+   </head>
+   <body>
+
+
+      <!-- Banner Img -->
+      <div class="menu-banner-img" id="img-blur">
+         <img src="assets/salads-and-veggies.png" alt="Fresh Veggie Rich Salad">
+      </div>
+      <h1 class="menu-mast">Fresh Salads</h1>
+      <div class="bar" id="menu-bar"></div>
+      <div class="menu-nav-cat">
+      </div>
+
+      <!-- Salads Selections -->
+         <!-- build your own salad -->
+         <div class="main-container">
+            <h1>Create Your<br>Own Salad</h1>
+               <div class="menu-choice" id="custom-item" onclick="openPopup()">
+                  <div class="left">
+                  <div class="item-img" id="custom">
+                     <img id="star" src="assets/cust-star.svg" alt="Custom Item Star Graphic">
+                  </div>
+               </div>
+               <div class="right">
+                  <h3>Custom Salads</h3>
+                  <p>Our salads are served chopped to bring you the best blending of flavors and textures.</p>  
+               </div>
+            </div>
+            <!-- Callout -->
+            <div class="callout">
+               <p>*Our dressing blended can be served on the salad or on the side.</p>  
+            </div>
+            <!-- Callout END -->
+
+         </div>
+      <!-- build your own salad END -->
+
+
+      <!-- toggle options list -->
+      <div class="main-container" id="green-block">
+         <h2>View Our Custom Options</h2>
+        <!-- toogled options -->
+        <div class="toggle-all">
+        </div>
+     </div>
+
+  <!-- menu list -->
+  <div class="main-container" id="white-block">
+     <h1>Chef's Whimsey</h1>   
+     <div class="menu-list"> 
+     </div>
+     <div id="end-space"></div>
+   </div>
+      </body>
+      <script src="eta.js"></script>
+   </html>
